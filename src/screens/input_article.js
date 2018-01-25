@@ -16,7 +16,7 @@ export default class InputArticle extends Component {
         <Text style={styles.welcome}>Sample App</Text>
         <TextInput
           style={{ height: 40, margin: 10 }}
-          placeholder="Type here to translate!"
+          placeholder="Sample of TextInput"
           onChangeText={text => this.setState({ text })}
         />
       </View>
